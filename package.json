@@ -1,0 +1,13 @@
+{
+  "name": "preact_practice",
+  "version": "1.0.0",
+  "description": "basic spa",
+  "main": "\"\"",
+  "repository": "\"\"",
+  "author": "speculate7",
+  "license": "\"\"",
+  "private": null,
+  "devDependencies": {
+    "snowpack": "^2.3.1"
+  }
+}
