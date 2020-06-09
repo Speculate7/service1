@@ -1,13 +1,22 @@
 {
   "name": "preact_practice",
   "version": "1.0.0",
-  "description": "basic spa",
-  "main": "\"\"",
-  "repository": "\"\"",
+  "description": "basic cms",
+  "repository": "",
   "author": "speculate7",
-  "license": "\"\"",
-  "private": null,
+  "license": "",
+  "private": "true",
+  "scripts": {
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "install:web": "snowpack install"
+  },
+  "dependencies": {
+    "htm": "^3.0.4",
+    "preact": "^10.4.4"
+  },
   "devDependencies": {
+    "@snowpack/app-scripts-preact": "^1.1.4",
     "snowpack": "^2.3.1"
   }
 }
