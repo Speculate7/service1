@@ -1,5 +1,5 @@
 const extraHtml = `
-<div class="container externalHtml">
+<div class="externalHtml">
 <h3>Html injection experiment</h3>
 </div>`;
 
@@ -18,6 +18,8 @@ const importHtmlPage = () => {
 
     console.log(elem);
 
-    document.body.appendChild(elem);
+    let menu = document.body.getElementsByClassName("menu");
+    console.log(menu);
+    menu[0].appendChild(elem);
 };
 importHtmlPage();
